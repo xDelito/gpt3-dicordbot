@@ -11,11 +11,17 @@ async def on_message(message):
         return
 
     if message.content.startswith("-"):
-        await handle_image_generation(message)
+        try:
+            await handle_image_generation(message)
+        except Exception as e:
+            await message.channel.send("No pude procesar la solicitud. Ocurrió un error: " + str(e))
         return
 
     if message.content.startswith("+"):
-        await handle_completion(message)
+        try:
+            await handle_completion(message)
+        except Exception as e:
+            await message.channel.send("No pude procesar la solicitud. Ocurrió un error: " + str(e))
         return
 
 async def handle_image_generation(message):
