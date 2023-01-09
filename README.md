@@ -10,7 +10,7 @@ Currently I use 3.9 if any errors, delete python versions higher than 3.9.X
 
 To deploy this project run
 
-```python
+```
   git clone https://github.com/xDelito/gpt3-dicordbot.git
   cd gpt3-dicordbot
   pip install openai
