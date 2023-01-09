@@ -1,5 +1,5 @@
 # gpt3-dicordbot
-Discord bot with OpenAI
+Python Discord Bot with OpenAI
 
 # Requirements
 lib openai<br>
