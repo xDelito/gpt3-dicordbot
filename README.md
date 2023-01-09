@@ -4,8 +4,8 @@ Python Discord Bot with OpenAI
 # Requirements
 ```lib openai<br>
 python < 3.7.X<br>
-Currently I use 3.9 if any errors, delete python versions higher than 3.9.X```
-
+Currently I use 3.9 if any errors, delete python versions higher than 3.9.X
+```
 ## Deployment
 
 To deploy this project run
