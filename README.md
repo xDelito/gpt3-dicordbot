@@ -5,7 +5,6 @@ Python Discord Bot with OpenAI
 ``` lib openai<br>
   python < 3.7.X
   pip install openai
-  Currently I use 3.9 if any errors, delete python versions higher than 3.9.X
 ```
 ## Deployment
 
