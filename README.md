@@ -12,7 +12,7 @@ To deploy this project run
 
 ```
   git clone https://github.com/xDelito/gpt3-dicordbot.git
-  cd gpt3-dicordbot
+  cd gpt3-dicordbot-main
   pip install openai
   python openaibot.py
 ```
