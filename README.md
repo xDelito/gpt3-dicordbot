@@ -1,4 +1,4 @@
-# GPT3-Dicord-Bot
+# OpenAI-GPT3-Dicord-Bot
 Python Discord Bot with OpenAI
 
 # Requirements
